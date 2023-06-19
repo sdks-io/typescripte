@@ -30,18 +30,6 @@ export class StoreController extends BaseController {
   }
 
   /**
-   * Returns a map of status codes to quantities
-   *
-   * @return Response from the API call
-   */
-  async getInventory(
-    requestOptions?: RequestOptions
-  ): Promise<ApiResponse<Record<string, number>>> {
-    const req = this.createRequest('GET', '/store/inventory');
-    return req.callAsJson(dict(number()), requestOptions);
-  }
-
-  /**
    * For valid response try integer IDs with value >= 1 and <= 10. Other values will generated
    * exceptions
    *
@@ -77,5 +65,17 @@ export class StoreController extends BaseController {
     req.throwOn(400, ApiError, 'Invalid ID supplied');
     req.throwOn(404, ApiError, 'Order not found');
     return req.call(requestOptions);
+  }
+
+  /**
+   * Returns a map of status codes to quantities
+   *
+   * @return Response from the API call
+   */
+  async getInventory(
+    requestOptions?: RequestOptions
+  ): Promise<ApiResponse<Record<string, number>>> {
+    const req = this.createRequest('GET', '/store/inventory');
+    return req.callAsJson(dict(number()), requestOptions);
   }
 }
