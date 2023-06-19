@@ -12,14 +12,14 @@ Find out more about Swagger: [http://swagger.io](http://swagger.io)
 Run the following command from your project directory to install the package from npm:
 
 ```ts
-npm install repo-test-sdk@2.3.5
+npm install repo-test-sdk@2.3.6
 ```
 
-For additional package details, see the [Npm page for the repo-test-sdk@2.3.5  npm](https://www.npmjs.com/package/repo-test-sdk/v/2.3.5).
+For additional package details, see the [Npm page for the repo-test-sdk@2.3.6  npm](https://www.npmjs.com/package/repo-test-sdk/v/2.3.6).
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/typescripte/tree/2.3.5/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/typescripte/tree/2.3.6/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -68,12 +68,12 @@ This API uses `Custom Authentication`.
 
 ## List of APIs
 
-* [Pet](https://www.github.com/sdks-io/typescripte/tree/2.3.5/doc/controllers/pet.md)
-* [Store](https://www.github.com/sdks-io/typescripte/tree/2.3.5/doc/controllers/store.md)
-* [User](https://www.github.com/sdks-io/typescripte/tree/2.3.5/doc/controllers/user.md)
+* [Pet](https://www.github.com/sdks-io/typescripte/tree/2.3.6/doc/controllers/pet.md)
+* [Store](https://www.github.com/sdks-io/typescripte/tree/2.3.6/doc/controllers/store.md)
+* [User](https://www.github.com/sdks-io/typescripte/tree/2.3.6/doc/controllers/user.md)
 
 ## Classes Documentation
 
-* [ApiResponse](https://www.github.com/sdks-io/typescripte/tree/2.3.5/doc/api-response.md)
-* [ApiError](https://www.github.com/sdks-io/typescripte/tree/2.3.5/doc/api-error.md)
+* [ApiResponse](https://www.github.com/sdks-io/typescripte/tree/2.3.6/doc/api-response.md)
+* [ApiError](https://www.github.com/sdks-io/typescripte/tree/2.3.6/doc/api-error.md)
 
